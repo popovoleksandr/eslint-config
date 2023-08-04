@@ -1,0 +1,29 @@
+{
+  "name": "eslint-config-popovoleksandr",
+  "version": "1.0.0",
+  "description": "Personal ESLint config for my JavaScript projects",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/popovoleksandr/eslint-config.git"
+  },
+  "keywords": [
+    "eslint",
+    "config"
+  ],
+  "author": "Oleksandr Popov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/popovoleksandr/eslint-config/issues"
+  },
+  "homepage": "https://github.com/popovoleksandr/eslint-config#readme",
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "scripts": {
+    "test": "eslint index.js"
+  }
+}
